@@ -1,9 +1,24 @@
 body {
-  background-color: lightblue;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,97,1) 43%, rgba(255,250,0,1) 100%);
 }
 
 h1 {
-  color: navy;
-  font-family: "Lucida Handwriting", cursive;
-  margin: auto;
+  color:white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+p1 {
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: left;
+}
+
+a {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:hover {
+  color: yellow;
 }
